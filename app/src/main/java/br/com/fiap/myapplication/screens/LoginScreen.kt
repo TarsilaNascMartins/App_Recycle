@@ -66,7 +66,7 @@ fun LoginScreen(navController: NavHostController) {
             modifier = Modifier.size(300.dp)
         )
         Text(
-            text = "XXXXXX XXXXXX",
+            text = "Eco Points",
             fontSize = 25.sp,
             color = Color(0xffDA878F),
             modifier = Modifier.offset(y=(-60).dp),

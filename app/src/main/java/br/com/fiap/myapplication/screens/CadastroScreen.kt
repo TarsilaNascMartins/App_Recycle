@@ -89,7 +89,7 @@ fun CadastroScreen(navController: NavHostController) {
                 .align(Alignment.CenterHorizontally)
         )
         Text(
-            text = "XXXXXX XXXXXX",
+            text = "Eco Points",
             fontSize = 25.sp,
             color = Color(0xffDA878F),
             modifier = Modifier

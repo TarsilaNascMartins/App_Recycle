@@ -16,7 +16,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import br.com.fiap.fase1.HomeScreen
 import br.com.fiap.fase1.LoginScreen
+import br.com.fiap.myapplication.model.Cupom
+import br.com.fiap.myapplication.repository.getAllCupom
 import br.com.fiap.myapplication.screens.CadastroScreen
+import br.com.fiap.myapplication.screens.CupomScreen
 import br.com.fiap.myapplication.screens.ProdutoScreen
 import br.com.fiap.navegacao.screens.PerfilScreen
 
@@ -52,6 +55,11 @@ class MainActivity : ComponentActivity() {
 
                         composable(route = "cadastro") {
                             CadastroScreen(navController) }
+
+                        composable(route = "cupom") {
+                            CupomScreen(navController)
+                        }
+
 
                         composable(route = "perfil/{nome}/{idade}",
                             arguments = listOf(navArgument(name="nome"){

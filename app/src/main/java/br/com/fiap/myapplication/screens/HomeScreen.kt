@@ -323,7 +323,7 @@ fun HomeScreen(navController: NavHostController) {
             Row {
                 Card(
                     modifier = Modifier
-                        .clickable { /* ToDo */ }
+                        .clickable {  navController.navigate("cupom")}
                         .padding(24.dp)
                         .size(145.dp),
                     elevation = CardDefaults.cardElevation(4.dp),
