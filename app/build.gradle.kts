@@ -74,9 +74,15 @@ dependencies {
     //recursos de animação
     implementation ("com.google.accompanist:accompanist-navigation-animation:0.30.1")
 
+//biblioteca icons
+    implementation("androidx.compose.material:material-icons-extended:1.6.3")
 
-    // Room DEPENDENCIES
-    implementation ("androidx.room:room-runtime:2.5.2")
-    annotationProcessor ("androidx.room:room-compiler:2.5.2")
-    kapt ("androidx.room:room-compiler:2.5.2")
+
+    // DEPENDÊNCIAS DO ROOM
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.activity:activity-ktx:1.8.2")
+    implementation("androidx.compose.foundation:foundation-android:1.6.3")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+
 }

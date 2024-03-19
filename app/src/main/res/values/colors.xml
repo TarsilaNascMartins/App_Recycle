@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primeira">#94AE9C</color>
     <color name="segunda">#BFB0A7</color>
+    <color name="vermelho_fiap">#804CDD</color>
+    <color name="cor_primaria_app">#E5AEB3</color>
 </resources>
